@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "211FA4DE-7D82-4D31-86BD-85B42212EC4D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41C19280-317A-4A44-97D8-90B8D288028E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftApp/RunMockeyService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getRunMockeyModeDatal()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D17E34FA-BD8F-4579-B055-C2ACAE12C6A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftApp/RunMockeyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "callRunMockeyAPI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D17E34FA-BD8F-4579-B055-C2ACAE12C6A9 - 9d35a35c9ef8fd09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in SwiftApp.RunMockeyViewModel.callRunMockeyAPI() -&gt; ()"
+                  moduleName = "SwiftApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajitsatarkar/Documents/SwiftUI_Git/SwiftAPIcall/SwiftApp/RunMockeyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "D17E34FA-BD8F-4579-B055-C2ACAE12C6A9 - 1560f505a1066c81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async -&gt; () in SwiftApp.RunMockeyViewModel.callRunMockeyAPI() -&gt; ()"
+                  moduleName = "SwiftApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajitsatarkar/Documents/SwiftUI_Git/SwiftAPIcall/SwiftApp/RunMockeyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "D17E34FA-BD8F-4579-B055-C2ACAE12C6A9 - ce915f1248c5b58a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SwiftApp.RunMockeyViewModel.callRunMockeyAPI() -&gt; ()"
+                  moduleName = "SwiftApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajitsatarkar/Documents/SwiftUI_Git/SwiftAPIcall/SwiftApp/RunMockeyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "D17E34FA-BD8F-4579-B055-C2ACAE12C6A9 - 13eeeef1667b67b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SwiftApp.RunMockeyViewModel.callRunMockeyAPI() -&gt; ()"
+                  moduleName = "SwiftApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajitsatarkar/Documents/SwiftUI_Git/SwiftAPIcall/SwiftApp/RunMockeyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
