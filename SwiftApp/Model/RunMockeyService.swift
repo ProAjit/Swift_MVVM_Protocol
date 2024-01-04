@@ -57,6 +57,16 @@ enum UserError : LocalizedError {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*
  Printing description of response:
  <NSHTTPURLResponse: 0x600000263c00> { URL: https://m.youtube.com/playlist?list=PLV7VzbWXa60E0rEzFEPsaX38kMXYTY2-R&si=ehFPxUHPEbA1rN3I } { Status Code: 200, Headers {
