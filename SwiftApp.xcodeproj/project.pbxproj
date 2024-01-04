@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B56024A52B42F21400BF66D1 /* SwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56024A42B42F21400BF66D1 /* SwiftAppTests.swift */; };
 		B5E17CFB2B296D6900238FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E17CFA2B296D6900238FC3 /* AppDelegate.swift */; };
 		B5E17CFD2B296D6900238FC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E17CFC2B296D6900238FC3 /* SceneDelegate.swift */; };
 		B5E17CFF2B296D6900238FC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E17CFE2B296D6900238FC3 /* ViewController.swift */; };
@@ -18,7 +19,19 @@
 		B5E17D132B2980CE00238FC3 /* RunMockeyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E17D122B2980CE00238FC3 /* RunMockeyViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B56024A62B42F21400BF66D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5E17CEF2B296D6900238FC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E17CF62B296D6900238FC3;
+			remoteInfo = SwiftApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		B56024A22B42F21400BF66D1 /* SwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56024A42B42F21400BF66D1 /* SwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppTests.swift; sourceTree = "<group>"; };
 		B5E17CF72B296D6900238FC3 /* SwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E17CFA2B296D6900238FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E17CFC2B296D6900238FC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +46,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B560249F2B42F21400BF66D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5E17CF42B296D6900238FC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B56024A32B42F21400BF66D1 /* SwiftAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B56024A42B42F21400BF66D1 /* SwiftAppTests.swift */,
+			);
+			path = SwiftAppTests;
+			sourceTree = "<group>";
+		};
 		B56CDA002B4299310051750F /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B5E17CF92B296D6900238FC3 /* SwiftApp */,
+				B56024A32B42F21400BF66D1 /* SwiftAppTests */,
 				B5E17CF82B296D6900238FC3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				B5E17CF72B296D6900238FC3 /* SwiftApp.app */,
+				B56024A22B42F21400BF66D1 /* SwiftAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +133,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B56024A12B42F21400BF66D1 /* SwiftAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56024AA2B42F21400BF66D1 /* Build configuration list for PBXNativeTarget "SwiftAppTests" */;
+			buildPhases = (
+				B560249E2B42F21400BF66D1 /* Sources */,
+				B560249F2B42F21400BF66D1 /* Frameworks */,
+				B56024A02B42F21400BF66D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56024A72B42F21400BF66D1 /* PBXTargetDependency */,
+			);
+			name = SwiftAppTests;
+			productName = SwiftAppTests;
+			productReference = B56024A22B42F21400BF66D1 /* SwiftAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B5E17CF62B296D6900238FC3 /* SwiftApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5E17D0B2B296D6C00238FC3 /* Build configuration list for PBXNativeTarget "SwiftApp" */;
@@ -127,9 +175,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					B56024A12B42F21400BF66D1 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = B5E17CF62B296D6900238FC3;
+					};
 					B5E17CF62B296D6900238FC3 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -149,11 +201,19 @@
 			projectRoot = "";
 			targets = (
 				B5E17CF62B296D6900238FC3 /* SwiftApp */,
+				B56024A12B42F21400BF66D1 /* SwiftAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B56024A02B42F21400BF66D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5E17CF52B296D6900238FC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,6 +227,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B560249E2B42F21400BF66D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56024A52B42F21400BF66D1 /* SwiftAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5E17CF32B296D6900238FC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,6 +249,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B56024A72B42F21400BF66D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E17CF62B296D6900238FC3 /* SwiftApp */;
+			targetProxy = B56024A62B42F21400BF66D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B5E17D002B296D6900238FC3 /* Main.storyboard */ = {
@@ -202,6 +278,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B56024A82B42F21400BF66D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y8B6F34DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajitsatarkar.SwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftApp";
+			};
+			name = Debug;
+		};
+		B56024A92B42F21400BF66D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y8B6F34DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajitsatarkar.SwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftApp";
+			};
+			name = Release;
+		};
 		B5E17D092B296D6C00238FC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -378,6 +492,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B56024AA2B42F21400BF66D1 /* Build configuration list for PBXNativeTarget "SwiftAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56024A82B42F21400BF66D1 /* Debug */,
+				B56024A92B42F21400BF66D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B5E17CF22B296D6900238FC3 /* Build configuration list for PBXProject "SwiftApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
